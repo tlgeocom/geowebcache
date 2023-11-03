@@ -83,7 +83,9 @@ import org.geowebcache.storage.TileRange;
  * referenced parameter doesn't exists the string 'null' will be used.
  */
 final class FileManager {
-
+/*
+george
+ */
     private static Log LOGGER = LogFactory.getLog(FileManager.class);
 
     private static final Pattern PATH_TEMPLATE_ATTRIBUTE_PATTERN = Pattern.compile("\\{(.+?)\\}");
